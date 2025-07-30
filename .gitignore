@@ -1,1 +1,39 @@
-test/
+# Логи и вспомогательные файлы
+*.log
+*.tmp
+*.cache
+
+# Пакеты менеджеров (если используются)
+vcpkg_installed/
+packages/
+
+# Файлы документации сборки
+_make/
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.dbtest/# Логи и вспомогательные файлы
+*.log
+*.tmp
+*.cache
+
+# Пакеты менеджеров (если используются)
+vcpkg_installed/
+packages/
+
+# Файлы документации сборки
+_make/
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Каталоги сборки (например, CMake)
+build/
+cmake-build-*/
